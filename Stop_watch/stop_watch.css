@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    /*background-image: url('gym.img');*/
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+body{
+    background-image: url('gym.img');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.stopwatch{
+    background-color:black;
+    padding: 20px 35px;
+    border-radius: 10px;
+
+}
+.timerdisplay{
+    font-size: 50px;
+    font-weight: 600;
+    width: 42vh;
+    height:100%;
+    text-align: center;
+}
+.buttons{
+    margin-top:20px;
+
+}
+.Button{
+    font-size: 20px;
+    background: none;
+    border: none;
+    color:white; 
+    padding: 12px 22px;
+    border-radius: 7px;
+    margin-inline: 10px;
+    cursor: pointer;
+}
+#start{
+    background-color:green ;
+}
+#stop{
+    background-color: red;
+}
+#reset{
+    background-color: blue;
+}
